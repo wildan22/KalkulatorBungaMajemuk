@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    >
+
+    <TextView
+        android:id="@+id/title_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tentang_kami"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/title_about"
+        android:src="@drawable/boy"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_1"
+        android:layout_below="@+id/title_about"
+        android:text="@string/nama_wildan_mutaqin"
+        android:paddingTop="45dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_1"
+        android:layout_below="@+id/title_about"
+        android:text="@string/npm_1717051037"
+        android:paddingTop="65dp"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/img_1"
+        android:src="@drawable/girl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_toRightOf="@+id/img_2"
+        android:text="@string/nama_desrizal_dwi_ayu"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_1"
+        android:layout_toRightOf="@+id/img_2"
+        android:text="@string/npm_1717051019"
+        android:paddingTop="65dp"/>
+
+    <ImageView
+        android:id="@+id/img_3"
+        android:layout_width="75dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/img_2"
+        android:src="@drawable/man3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_3"
+        android:layout_below="@+id/img_2"
+        android:text="@string/nama_riki_sofyan"
+        android:paddingTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_3"
+        android:layout_below="@+id/img_2"
+        android:text="@string/npm_1717051067"
+        android:paddingTop="65dp"/>
+
+
+</RelativeLayout>

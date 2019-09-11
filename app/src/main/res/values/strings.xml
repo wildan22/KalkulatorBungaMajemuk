@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kalkulator Bunga Majemuk</string>
+    <string name="start_capital">Simpanan Awal</string>
+    <string name="annual_growth_year">Bunga/tahun (%)</string>
+    <string name="number_of_year">Disimpan dalam (tahun)</string>
+    <string name="reset">RESET</string>
+    <string name="calculate">HITUNG</string>
+    <string name="kalkulator_bunga_majemuk">Kalkulator Bunga Majemuk</string>
+    <string name="apa_itu_bunga_majemuk">Apa itu Bunga majemuk?</string>
+    <string name="tentang_kami">Tentang Kami</string>
+    <string name="nama_wildan_mutaqin">NAMA : Wildan Mutaqin</string>
+    <string name="npm_1717051037">NPM : 1717051037</string>
+    <string name="nama_desrizal_dwi_ayu">NAMA : Desrizal Dwi Ayu</string>
+    <string name="npm_1717051019">NPM : 1717051019</string>
+    <string name="nama_riki_sofyan">NAMA : Riki Sofyan</string>
+    <string name="npm_1717051067">NPM : 1717051067</string>
+    <string name="informasi_bunga">Bunga majemuk adalah bunga yang diberikan berdasarkan modal awal dan akumulasi bunga pada periode sebelumnya.Bunga majemuk memiliki banyak variasi dan selalu berubah (tidak tetap) pada tiap-tiap periode. Contohnya saat menjual sebuah kendaraan, harga kendaraan yang dijualakan berubah setiap periode dan perubahannya bervariasi</string>
+</resources>
